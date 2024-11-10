@@ -127,7 +127,7 @@ void player_move(char board[BOARD_SIZE][BOARD_SIZE]){
     if (count == 1)
     {
         board[x][y] = 'X';
-            
+        return;
     }
 
     int row, col;
